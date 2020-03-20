@@ -17,7 +17,7 @@ body{
 
 .heading{
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 700;
 }
 hr{
   margin-top: 0!important;
@@ -129,7 +129,7 @@ hr{
   .nav{
 
     .nav-menu-item{
-      //margin-left: 50px;
+
       padding-left: 0;
       display: none !important;
 
@@ -195,11 +195,13 @@ hr{
       display: flex;
       justify-content: center;
       font-size: 42px;
+      font-weight: 500;
     }
   }
 
   .latest-update{
     display: flex;
+
     @media (max-width: 425px){
       flex-direction: column;
     }
@@ -215,7 +217,6 @@ hr{
       font-weight: 900;
       text-transform: uppercase;
       border: 1px solid $primaryColor;
-      //transform: skewX(50deg);
       animation: titleAnimate 1s infinite;
     }
 
@@ -247,6 +248,62 @@ hr{
 
     }
   }
+
+  .affected-countries{
+    p{
+      font-size: 24px;
+      font-weight: 500;
+    }
+  }
+
 }
 
+//====================symptoms section=============
+
+
+.symptoms{
+  .symptoms-text{
+    p{
+      font-size: 20px;
+      text-align: justify;
+    }
+  }
+
+  .people-experience{
+    ul{
+      li{
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+//====================prevention section==============
+
+.prevention{
+  .vaccine{
+    padding: 10px;
+    font-size: 28px;
+    font-weight: 500;
+    color: $white;
+    background: $primaryColor;
+  }
+
+  .prevention-text{
+    .preventions{
+      P{
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 0;
+      }
+
+      ul{
+        li{
+          font-size: 20px;
+        }
+      }
+    }
+
+  }
+}
 

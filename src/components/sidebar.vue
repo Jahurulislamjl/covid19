@@ -11,6 +11,21 @@
                 </li>
 
                 <li class="nav-item">
+                    <router-link to="/symptoms" class="nav-link">
+                        <i class="nav-icon mdi mdi-circle-slice-3 "></i>
+                        Symptoms
+                    </router-link>
+                </li>
+
+                <li class="nav-item">
+                    <router-link to="/prevention" class="nav-link">
+                        <i class="nav-icon mdi mdi-circle-slice-3 "></i>
+                        Prevention
+                    </router-link>
+                </li>
+
+
+                <li class="nav-item">
                     <a class="nav-link dropdown-toggle" id="library-menu-dropdown">
                         <i class="nav-icon mdi mdi-circle-slice-3"></i>
                         Library
